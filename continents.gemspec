@@ -9,10 +9,10 @@ Gem::Specification.new do |s|
   s.version = ""
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = ["Ravi Bhim"]
+  s.authors = ["Ravi Bhim", 'Alexander Presber']
   s.date = "2014-03-03"
   s.description = "Mapping from Continents to Countries and viceversa."
-  s.email = "ravi.bhim@yahoo.com"
+  s.email = "apresber@jovoto.com"
   s.extra_rdoc_files = [
     "LICENSE",
     "README.rdoc"
