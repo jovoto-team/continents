@@ -96,4 +96,14 @@ describe "Continents" do
     end
   end
 
+  describe :get_country_codes do
+    it 'returns the countries in a continent' do
+      Ravibhim::Continents::get_country_codes('Asia').should include('IN')
+      Ravibhim::Continents::get_country_codes('Asia').should include('LK')
+
+      Ravibhim::Continents::get_country_codes('North America').should include('US')
+      Ravibhim::Continents::get_country_codes('Europe').should include('DE')
+    end
+  end
+
 end
