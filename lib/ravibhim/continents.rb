@@ -43,7 +43,7 @@ module Ravibhim
 
     def self.get_country_codes(cont)
       countries = get_countries(cont)
-      country_codes = countries.map{|c| get_iso_3166_1_code(c)}
+      country_codes = countries.map{|c| get_iso_3166_1_code(c)}.compact
     end
   end
 end
