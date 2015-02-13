@@ -60,7 +60,6 @@ Gem::Specification.new do |s|
     end
   else
     s.add_dependency(%q<rake>, [">= 0"])
-    s.add_dependency(%q<rspec>, ["= 1.3.2"])
     s.add_dependency(%q<jeweler>, [">= 0"])
     s.add_dependency(%q<rspec>, [">= 1.2.9"])
   end
